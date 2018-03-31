@@ -1,0 +1,36 @@
+    ul  {
+    list-style-type: none;
+    margin: 30px  300px;
+    overflow: hidden;
+    background-color:  #001a33;
+    color:  #ff1a1a;
+    font-size: medium;
+    font-family:Lucida Sans Unicode;
+    width: 700px;
+    border-radius: 10px; 
+    }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    }
+li a:hover {
+    background-color: #00264d;
+   }
+li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;
+        position: absolute;									
+		margin: 0; 
+		padding: 10px 16px;
+        width: 100px; 
+        border-radius: 5px;
+		}	
+        li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                       	}
